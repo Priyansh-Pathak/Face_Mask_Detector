@@ -12,10 +12,6 @@ Make sure to have the following dependencies installed:
 - imutils
 - numpy
 
-You can install these dependencies by running:
-
-```bash
-pip install opencv-python tensorflow imutils numpy
 How to Run the Project
 Download and Prepare the Model:
 
@@ -49,6 +45,14 @@ If you wish to train your own model, you can use the train_mask_detector.py scri
 
 Troubleshooting
 Issue: "The model file doesn't load correctly."
+
+
+You can install these dependencies by running:
+
+```bash
+pip install opencv-python tensorflow imutils numpy
+
+
 
 Solution: Make sure the mask_detector.model file is in the correct directory and that it is a valid Keras .h5 or .keras model.
 
